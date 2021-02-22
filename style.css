@@ -1,0 +1,29 @@
+
+body{
+	background-color:black;
+background-image: url(2.jpg);
+background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1600px 760px;
+}
+h1{
+position: absolute;
+z-index: 3;
+left: 620px;
+color: white;
+font-family: Algerian;
+top:250px;
+}
+span{color: blue};
+.saturn{
+	z-index: 1;
+	border: 1px solid black;
+	border-radius:700px;
+}
+.space{
+	z-index: 2;
+	position: absolute;
+	left:800px;
+	top: 270px
+}
